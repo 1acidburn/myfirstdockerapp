@@ -1,0 +1,19 @@
+[Unit]
+Description=ip service
+After=syslog.target network.target
+
+[Service]
+Type=forking
+
+
+WorkingDirectory=/home/
+
+
+ExecStart=/home/ip.sh
+ExecStop=/home/ip.sh
+
+RestartSec=10
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
