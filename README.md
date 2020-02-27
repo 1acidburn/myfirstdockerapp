@@ -12,7 +12,7 @@ Git clone https://github.com/1acidburn/myfirstdockerapp.git
 
 **Then build it.**
 
-docker build --rm --no-cache -t test .
+```docker build --rm --no-cache -t test .```
 
 **Launch it.**
 
