@@ -27,7 +27,7 @@ To check custom service inside container: ```systemctl status ipservice.service`
 
 To check Apache httpd service inside container: ```systemctl status httpd.service```
 
-Apache Web server is available on
+**Apache Web server** [External URL Apache web server](http://104.40.205.113/).
 
-[External URL Apache web server](http://104.40.205.113/).
+
 
