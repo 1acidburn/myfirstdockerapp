@@ -24,4 +24,4 @@ Finally use it.
 
 To check custom service inside container: systemctl status ipservice.service
 To check Apache httpd service inside container: systemctl status httpd.service
-Apache Web server is available on [link text itself]:http://104.40.205.113/
+Apache Web server is available on http://104.40.205.113/
