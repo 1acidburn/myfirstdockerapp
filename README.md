@@ -22,7 +22,7 @@ docker run --privileged --name test -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 80:80
 Finally use it.
 
 1. docker ps
-2. docker exec -it <container id> bash
+2. docker exec -it test bash
 
 To check custom service inside container: systemctl status ipservice.service
 To check Apache httpd service inside container: systemctl status httpd.service
