@@ -29,5 +29,5 @@ To check Apache httpd service inside container: ```systemctl status httpd.servic
 
 Apache Web server is available on
 
-[GitHub Pages](https://pages.github.com/).
+[External URL Apache web server](http://104.40.205.113/).
 
