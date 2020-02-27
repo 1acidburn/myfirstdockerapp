@@ -16,16 +16,16 @@ Git clone https://github.com/1acidburn/myfirstdockerapp.git
 
 **Launch it.**
 
-docker run --privileged --name test -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 80:80 -d  test
+```docker run --privileged --name test -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 80:80 -d  test```
 
 **Finally use it.**
 
- docker ps
- docker exec -it test bash
+ ```docker ps```
+ ```docker exec -it test bash```
 
-To check custom service inside container: systemctl status ipservice.service
+To check custom service inside container: ```systemctl status ipservice.service```
 
-To check Apache httpd service inside container: systemctl status httpd.service
+To check Apache httpd service inside container: ```systemctl status httpd.service```
 
 Apache Web server is available on http://104.40.205.113/
 
