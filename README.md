@@ -4,10 +4,8 @@ Docker container with the following requirements:
   - Working systemd inside of the container.
   - Working httpd service running on port 80
   - Working ipservice provide information of date/time, OS, uptime, mem utilization, load averages, IP address, weathter, running process
-  
-  
 
-Here we show you how we can create a sample test container.
+Here I can show you how we can create a sample test container.
 
 Git clone https://github.com/1acidburn/myfirstdockerapp.git
 
